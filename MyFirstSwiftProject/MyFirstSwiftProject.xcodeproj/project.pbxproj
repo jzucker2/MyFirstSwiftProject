@@ -14,6 +14,7 @@
 		51B2484B1B01404D0022F2E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B2484A1B01404D0022F2E8 /* Images.xcassets */; };
 		51B2484E1B01404D0022F2E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51B2484C1B01404D0022F2E8 /* LaunchScreen.xib */; };
 		51B2485A1B01404D0022F2E8 /* MyFirstSwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B248591B01404D0022F2E8 /* MyFirstSwiftProjectTests.swift */; };
+		51B248641B0140B00022F2E8 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B248631B0140B00022F2E8 /* FirstTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		51B248531B01404D0022F2E8 /* MyFirstSwiftProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstSwiftProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B248581B01404D0022F2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51B248591B01404D0022F2E8 /* MyFirstSwiftProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstSwiftProjectTests.swift; sourceTree = "<group>"; };
+		51B248631B0140B00022F2E8 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				51B248411B01404C0022F2E8 /* AppDelegate.swift */,
 				51B248431B01404C0022F2E8 /* FirstViewController.swift */,
 				51B248451B01404C0022F2E8 /* SecondViewController.swift */,
+				51B248631B0140B00022F2E8 /* FirstTableViewController.swift */,
 				51B248471B01404C0022F2E8 /* Main.storyboard */,
 				51B2484A1B01404D0022F2E8 /* Images.xcassets */,
 				51B2484C1B01404D0022F2E8 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B248641B0140B00022F2E8 /* FirstTableViewController.swift in Sources */,
 				51B248461B01404C0022F2E8 /* SecondViewController.swift in Sources */,
 				51B248421B01404C0022F2E8 /* AppDelegate.swift in Sources */,
 				51B248441B01404C0022F2E8 /* FirstViewController.swift in Sources */,
